@@ -15,6 +15,7 @@ their parameters are outlined below.
 *** msg_producer
 **** num_msgs_to_send
 Default: 1000 messages
+
 The number of messages that are contained in the message pool.
 *** msg_sender
 **** average_send_time
@@ -22,24 +23,28 @@ Defalut: 5 seconds
 The number of seconds that it takes to send a message.
 **** average_send_time_factor
 Default: 3 seconds
+
 The number of seconds plus or minus from the ~average_send_time~ that it can
 take to send a message. For example if ~average_send_time = 5~ and
 ~average_send_time_factor = 2~ messages could be sent anywhere in the range of
 3 - 7 seconds.
 **** failure_rate
 Defalut: 25%
+
 The approximate rate of failure as a percentage for each sender.
 **** num_senders
 Default: 50 senders
+
 The number of senders that will be used to send messages.
 *** progress_monitor
 **** refresh_rate
 Default: 5 seconds
+
 The number of seconds to wait before refreshing the progress monitor.
 
 ** Running the simulation
 After installing the required dependencies the simulation can be run using the
-followin command: ~poetry run python main.py~
+following command: ~poetry run python main.py~
 
 ** Checking logs
 The overall log of all message transactions can be found at ~sms_msgs.log~
