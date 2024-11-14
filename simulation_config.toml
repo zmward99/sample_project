@@ -1,5 +1,5 @@
 [msg_producer]
-num_msgs_to_send = 100
+num_msgs_to_send = 1000
 
 [msg_sender]
 average_send_time = 5
