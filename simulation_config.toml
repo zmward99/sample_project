@@ -1,0 +1,11 @@
+[msg_producer]
+num_msgs_to_send = 100
+
+[msg_sender]
+average_send_time = 5
+average_send_time_factor = 3
+failure_rate = 25
+num_senders = 50
+
+[progress_monitor]
+refresh_rate = 5

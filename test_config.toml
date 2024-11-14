@@ -1,0 +1,6 @@
+# This is just a test configuration file to be used when running the automated tests.
+[test_field1]
+val1 = 1
+
+[test_field2]
+val2 = 2
